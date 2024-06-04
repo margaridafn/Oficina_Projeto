@@ -77,24 +77,32 @@ header a{
     display: flex;
 }
 
-.titulo_cortinados{
-    margin-left: auto;
+.texto_cortinados{
+    margin-left: 50px;
     color: var(--cor-span);
+    font-size: 20px;
+    height: 100%;
+}
+
+.titulo_cortinados{
+    margin-bottom: 50px;
+    margin-top: 80px;
     font-size: 35px;
 }
 
-.texto_cortinados{
+.texto_cortinados p{
     display: block;
     margin: auto;
-    font-size: 20px;
-    
+    font-size: 15,5px;
+    text-align: left;
+    color: var(--cor-texto);
 }
 
 .cortinados img{
     width: 600px;
     margin-top: 20px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 50px;
     display: block;
 }
 
