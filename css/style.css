@@ -51,7 +51,7 @@ header a{
     color: var(--cor-texto);
     text-align: center;
     padding-top: 200px;
-    padding-bottom: 306px;
+    padding-bottom: 186px;
 }
 
 .texto-banner p{
@@ -74,17 +74,48 @@ header a{
 .cortinados{
     background-color: var(--cor-fundo);
     padding-top: 50px;
+    display: flex;
 }
 
-.cortinados p{
+.titulo_cortinados{
+    margin-left: auto;
+    color: var(--cor-span);
+    font-size: 35px;
+}
+
+.texto_cortinados{
     display: block;
-    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    
 }
 
 .cortinados img{
     width: 600px;
     margin-top: 20px;
     margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Almofadas */
+
+.almofadas{
+    background-color: var(--cor-fundo);
+    padding-top: 50px;
+    display: flex;
+}
+
+.almofadas p{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.almofadas img{
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 10px;
     margin-right: auto;
     display: block;
 }
