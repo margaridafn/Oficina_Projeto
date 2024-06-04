@@ -4,7 +4,8 @@
     --cor-fundo: #fefae0ff;
     --papaya-whip: #faedcdff;
     --cor-span: #d4a373ff;
-    --cor-texto: black;
+    --cor-texto-titulos: black;
+    --cor-texto: #828282;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
@@ -24,7 +25,7 @@ body{
 header{
     display: flex;
     background-color: var(--cor-cabeçalho);
-    color: var(--cor-texto);
+    color: var(--cor-texto-titulos);
     justify-content: space-between;
     justify-items: center;
     padding: 20px 50px;
@@ -32,7 +33,7 @@ header{
 
 header a{
     text-decoration: none;
-    color: var(--cor-texto);
+    color: var(--cor-texto-titulos);
     margin-left: 30px;
 }
 
@@ -48,7 +49,7 @@ header a{
 }
 
 .texto-banner{
-    color: var(--cor-texto);
+    color: var(--cor-texto-titulos);
     text-align: center;
     padding-top: 200px;
     padding-bottom: 186px;
@@ -56,7 +57,7 @@ header a{
 
 .texto-banner p{
     font-size: 40px;
-    color: var(--cor-texto);
+    color: var(--cor-texto-titulos);
     text-size-adjust: 5px;
     font-weight: bolder;
     text-shadow: 5px 5px 10px black;
@@ -78,7 +79,7 @@ header a{
 }
 
 .texto_cortinados{
-    margin-left: 50px;
+    margin-left: 70px;
     color: var(--cor-span);
     font-size: 20px;
     height: 100%;
@@ -102,7 +103,7 @@ header a{
     width: 600px;
     margin-top: 20px;
     margin-left: auto;
-    margin-right: 50px;
+    margin-right: 70px;
     display: block;
 }
 
@@ -122,7 +123,7 @@ header a{
 }
 
 .titulo_almofadas{
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     margin-top: 80px;
     font-size: 35px;
     text-align: right;
@@ -139,7 +140,44 @@ header a{
 .almofadas img{
     width: 600px;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 70px;
     margin-right: auto;
+    display: block;
+}
+
+/* Esponjas */
+
+.esponjas{
+    background-color: var(--cor-fundo);
+    padding-top: 50px;
+    display: flex;
+}
+
+.texto_esponjas{
+    margin-left: 70px;
+    color: var(--cor-span);
+    font-size: 20px;
+    height: 100%;
+}
+
+.titulo_esponjas{
+    margin-bottom: 50px;
+    margin-top: 80px;
+    font-size: 35px;
+}
+
+.texto_esponjas p{
+    display: block;
+    margin: auto;
+    font-size: 15,5px;
+    text-align: left;
+    color: var(--cor-texto);
+}
+
+.esponjas img{
+    width: 600px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 70px;
     display: block;
 }
