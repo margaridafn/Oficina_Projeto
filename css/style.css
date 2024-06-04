@@ -39,22 +39,23 @@ header a{
 /* Banner */
 
 .banner{
-    background-image: url(../Img/divisoria01.jpg);
+    background-image: url(../img/divisoria01.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .texto-banner{
     color: var(--cor-texto);
     text-align: center;
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 306px;
 }
 
 .texto-banner p{
-    font-size: 20px;
+    font-size: 40px;
     color: var(--cor-texto);
     text-size-adjust: 5px;
     font-weight: bolder;
@@ -64,7 +65,7 @@ header a{
 
 .texto-banner h3{
     color: var(--cor-span);
-    font-size: 40px;
+    font-size: 80px;
     text-shadow: 5px 5px 10px black;
 }
 
