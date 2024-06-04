@@ -1,0 +1,89 @@
+:root{
+    --cor-cabeçalho: #ccd5aeff;
+    --cor-fundo-letras: #e9edc9ff;
+    --cor-fundo: #fefae0ff;
+    --papaya-whip: #faedcdff;
+    --cor-span: #d4a373ff;
+    --cor-texto: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+    font-family: Quicksand, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+
+header{
+    display: flex;
+    background-color: var(--cor-cabeçalho);
+    color: var(--cor-texto);
+    justify-content: space-between;
+    justify-items: center;
+    padding: 20px 50px;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--cor-texto);
+    margin-left: 30px;
+}
+
+/* Banner */
+
+.banner{
+    background-image: url(../Img/divisoria01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.texto-banner{
+    color: var(--cor-texto);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.texto-banner p{
+    font-size: 20px;
+    color: var(--cor-texto);
+    text-size-adjust: 5px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 10px black;
+    line-height: 2;
+}
+
+.texto-banner h3{
+    color: var(--cor-span);
+    font-size: 40px;
+    text-shadow: 5px 5px 10px black;
+}
+
+/* Cortinados */
+
+.cortinados{
+    background-color: var(--cor-fundo);
+    padding-top: 50px;
+}
+
+.cortinados p{
+    display: block;
+    text-align: center;
+}
+
+.cortinados img{
+    width: 600px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
