@@ -181,3 +181,15 @@ header a{
     margin-right: 70px;
     display: block;
 }
+
+/* Comentário */
+
+.comentario{
+    text-align: center;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-size: 20px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-decoration: underline var(--cor-span);
+}
