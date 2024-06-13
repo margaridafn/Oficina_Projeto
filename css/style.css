@@ -193,3 +193,19 @@ header a{
     padding-bottom: 50px;
     text-decoration: underline var(--cor-span);
 } 
+
+/* Botão */
+
+.BOTAO{
+    background-color: var(--cor-fundo);
+    
+}
+
+.botao a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: var(--cor-texto-titulos);
+    border-radius: 7px;
+    background-color: var(--cor-span);
+    margin-left: 49%;
+}
