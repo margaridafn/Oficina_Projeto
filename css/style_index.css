@@ -190,33 +190,35 @@ header a{
     color: var(--cor-texto);
     font-size: 20px;
     padding-top: 80px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     text-decoration: underline var(--cor-span);
 } 
 
 /* Botão */
 
-.BOTAO{
+.botao{
     background-color: var(--cor-fundo);
 }
 
-.botao a{
-    text-decoration: none;
-    padding: 10px 10px;
+.botao input[type="submit"]{
+    background-color:var(--cor-span);
     color: var(--cor-texto-titulos);
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-style: none;
     border-radius: 7px;
-    background-color: var(--cor-span);
-    margin-left: 49%;
+    margin-left: 50%;
+    margin-bottom: 30px;
 }
 
 /* Footer */
 
 footer {
     background-color: black;
-    margin-top: 20px;
     color: white;
     text-align: center;
-    padding: 25px;
+    padding: 40px;
     font-size: 15px;
     position: relative;
 }
