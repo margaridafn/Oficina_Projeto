@@ -212,3 +212,12 @@ header a{
 
 /* Footer */
 
+footer {
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+    position: relative;
+}
