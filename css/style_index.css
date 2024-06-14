@@ -40,7 +40,7 @@ header a{
 /* Banner */
 
 .banner{
-    background-image: url(../img/divisoria01.jpg);
+    background-image: url(../img/index_img/divisoria01.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -217,8 +217,9 @@ header a{
 footer {
     background-color: black;
     color: white;
-    text-align: center;
-    padding: 40px;
+    text-align: left;
+    padding: 25px;
     font-size: 15px;
     position: relative;
+    justify-content: space-between;
 }

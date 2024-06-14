@@ -37,15 +37,48 @@ header a{
     margin-left: 30px;
 }
 
+/* Formulario */
 
+.titulo{
+    background-color: var(--cor-fundo);
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
 
+.form{
+    width: 400px;
+    margin: 50px auto;
+    border: 1px solidvar(--cor-cabeçalho);
+    padding: 20px;
+    border-radius: 7px;
+}
 
+.form h3{
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--cor-texto);
+}
 
+label{
+    display: block;
+    color: var(--cor-texto-titulos);
+}
 
+input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
 
-
-
-
+textarea{
+    width: 100%;
+    
+}
 
 /* Footer */
 
@@ -53,8 +86,10 @@ footer {
     background-color: black;
     margin-top: 20px;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 25px;
     font-size: 15px;
     position: relative;
+    justify-content: space-between;
 }
+

@@ -29,30 +29,40 @@
 
     </header>
 
+    <!-- Titulo pedidos -->
+
     <section>
-        <div>
+        <div class="titulo">
             <h1> Pedidos </h1>
         </div>
     </section>
 
+    <!-- Formulario -->
+
     <section>
-        <div class="insira_nome">
-            <h3>
-                Faça aqui os seus pedidos
-            </h3>             
-                <form action="#">
-                     <input type="" name="email" id="email"
-                         placeholder="Insira o seu email">
+        <div class="form">
+        <h3>Faça aqui os seus pedidos</h3> 
+
+            <form action="#" name="pedidos" method="POST" data-netlify="true">
+                 
+                <label for="Nome">Nome</label>
+                <input type="text" name="Nome" id="Nome" aria-required="true">
+
+                <label for="Contacto">Contacto</label>
+                <input type="text" name="Contacto" id="Contacto">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <label for="Pedido">O seu pedido</label>
+                <textarea name="Pedido" id="Pedido" aria-required="true"></textarea>
     
-                    <input type="submit" value="Enviar">
-                </form>
+                <input type="submit" value="Submeter">
+            </form>
         </div>
     </section>
 
-
-
-
-
+    <!-- Footer -->
 
     <footer>
         <p>
