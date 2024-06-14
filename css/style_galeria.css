@@ -55,66 +55,67 @@ header a{
   color: var(--cor-texto);
 }
 
-/* Slides Almofadas */
+/* Almofadas */
 
 .t_al{
   text-align: center;
   color: var(--cor-span);
-  font-size: 20px;
   background-color: var(--cor-fundo);
+  font-size: 20px;
   padding-bottom: 20px;
 }
 
-#slideshow {
-  overflow: hidden;
-  height: 480px;
-  width: 728px;
-  margin: 0 auto;
+.slide_al{
+  background-color: var(--cor-fundo);
 }
 
-.slide {
-  float: left;
-  height: 480px;
-  width: 728px;
+iframe{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 80px;
 }
 
-.slide-wrapper {
-  width: calc(728px * 4);
-  animation: slide 10s ease infinite;
+/* Cortinados */
+
+.t_cor{
+  text-align: center;
+  color: var(--cor-span);
+  background-color: var(--cor-fundo);
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 
-.slide:nth-child(1) {
-  background-image: url(../img/galeria_img/Almofadas_img/almofadas1.jpg);
+.slide_cor{
+  background-color: var(--cor-fundo);
 }
 
-.slide:nth-child(2) {
-  background-image: url(../img/galeria_img/Almofadas_img/almofadas2.jpg);
+iframe{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 80px;
 }
 
-.slide:nth-child(3) {
-  background-image: url(../img/galeria_img/Almofadas_img/almofadas3.jpg);
+/* Esponjas */
+
+.t_es{
+  text-align: center;
+  color: var(--cor-span);
+  background-color: var(--cor-fundo);
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 
-.slide:nth-child(4) {
-  background-image: url(../img/galeria_img/Almofadas_img/almofadas4.jpg);
+.slide_es{
+  background-color: var(--cor-fundo);
 }
 
-@keyframes slide {
-  20% {
-      margin-left: 0px;
-  }
-
-  40% {
-      margin-left: calc(-728px * 1);
-  }
-
-  60% {
-      margin-left: calc(-728px * 2);
-  }
-
-  80% {
-      margin-left: calc(-728px * 3);
-  }
+iframe{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 80px;
 }
 
 /* Footer */
