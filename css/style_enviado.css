@@ -1,0 +1,18 @@
+:root{
+    --cor-cabeçalho: #ccd5aeff;
+    --cor-fundo-letras: #e9edc9ff;
+    --cor-fundo: #fefae0ff;
+    --papaya-whip: #faedcdff;
+    --cor-span: #d4a373ff;
+    --cor-texto-titulos: black;
+    --cor-texto: #828282;
+}
+
+#pedido{
+    background-color: var(--cor-fundo);
+}
+
+.enviado{
+    text-align: center;
+    color: var(--cor-texto);
+}
