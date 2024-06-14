@@ -225,8 +225,8 @@ header a{
 
 footer {
     display: flex;
-    background-color: black;
-    color: white;
+    background-color: var(--cor-cabeçalho);
+    color: var(--cor-texto);
     text-align: left;
     padding: 25px;
     font-size: 15px;
@@ -234,8 +234,11 @@ footer {
     justify-content: space-between;
 }
 
-.redes_sociais a {
+.redes_sociais{
+    padding-right: 20px;
+}
+
+.redes_sociais img {
     padding: 5px;
-    
-    
+    width: 30px;
 }

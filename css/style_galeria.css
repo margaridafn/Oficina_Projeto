@@ -31,6 +31,13 @@ header{
     padding: 20px 50px;
 }
 
+header img{
+  border-radius: 50%;
+  width: 40px;
+  margin-right: -750px;
+
+}
+
 header a{
     text-decoration: none;
     color: var(--cor-texto-titulos);
@@ -121,11 +128,21 @@ iframe{
 /* Footer */
 
 footer {
-  background-color: black;
-  color: white;
+  display: flex;
+  background-color: var(--cor-cabeçalho);
+  color: var(--cor-texto);
   text-align: left;
   padding: 25px;
   font-size: 15px;
   position: relative;
   justify-content: space-between;
+}
+
+.redes_sociais{
+  padding-right: 20px;
+}
+
+.redes_sociais img {
+  padding: 5px;
+  width: 30px;
 }

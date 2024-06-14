@@ -31,54 +31,85 @@ header{
     padding: 20px 50px;
 }
 
+header img{
+    border-radius: 50%;
+    width: 40px;
+    margin-right: -750px;
+
+}
+
 header a{
     text-decoration: none;
     color: var(--cor-texto-titulos);
     margin-left: 30px;
 }
 
+/* Contactos */
+
 .titulo{
+    padding-top: 90px;
     background-color: var(--cor-fundo);
     color: var(--cor-texto-titulos);
     text-align: center;
-    font-size: ;
+    font-size: 40px;
 }
 
 .texto{
     background-color: var(--cor-fundo);
     color: var(--cor-texto-titulos);
+    text-align: center;
+    padding: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 .texto p{
-    
     color: var(--cor-texto);
 }
 
 .texto_contacto{
     background-color: var(--cor-fundo);
     color: var(--cor-texto-titulos);
+    text-align: center;
+    padding: 10px;
+}
+
+.texto_contacto h3{
+    padding-bottom: 5px;
 }
 
 .texto_contacto p{
     color: var(--cor-texto);
+    padding-bottom: 30px;
+}
+
+.imagem{
+    padding-left: 250px;
+    padding-bottom: 50px;
+    background-color: var(--cor-fundo);
 }
 
 img {
-    width: 100%;
+    width: 1000px;
 }
 
-
-
-
-
-
-
+/* Footer */
 
 footer {
-    background-color: black;
-    color: white;
+    display: flex;
+    background-color: var(--cor-cabeçalho);
+    color: var(--cor-texto);
     text-align: left;
     padding: 25px;
     font-size: 15px;
     position: relative;
     justify-content: space-between;
-  }
+}
+
+.redes_sociais{
+    padding-right: 20px;
+}
+
+.redes_sociais img {
+    padding: 5px;
+    width: 30px;
+}
