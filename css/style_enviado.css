@@ -8,11 +8,49 @@
     --cor-texto: #828282;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+    font-family: Quicksand, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+
+header{
+    display: flex;
+    background-color: var(--cor-cabeçalho);
+    color: var(--cor-texto-titulos);
+    justify-content: space-between;
+    justify-items: center;
+    padding: 20px 50px;
+}
+
+header img{
+    border-radius: 50%;
+    width: 40px;
+    margin-right: -750px;
+
+}
+
+header a{
+    text-decoration: none;
+    color: var(--cor-texto-titulos);
+    margin-left: 30px;
+}
+
 #pedido{
     background-color: var(--cor-fundo);
 }
 
 .enviado{
+    padding-top: 250px;
     text-align: center;
     color: var(--cor-texto);
 }
+
