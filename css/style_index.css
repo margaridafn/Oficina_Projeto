@@ -29,6 +29,15 @@ header{
     justify-content: space-between;
     justify-items: center;
     padding: 20px 50px;
+
+}
+
+
+header img{
+    border-radius: 50%;
+    width: 40px;
+    margin-right: -750px;
+
 }
 
 header a{
@@ -215,6 +224,7 @@ header a{
 /* Footer */
 
 footer {
+    display: flex;
     background-color: black;
     color: white;
     text-align: left;
@@ -222,4 +232,10 @@ footer {
     font-size: 15px;
     position: relative;
     justify-content: space-between;
+}
+
+.redes_sociais a {
+    padding: 5px;
+    
+    
 }

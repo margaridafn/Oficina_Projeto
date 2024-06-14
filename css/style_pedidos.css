@@ -39,6 +39,11 @@ header a{
 
 /* Formulario */
 
+.pp{
+    display: flex;
+    background-color: var(--cor-fundo);
+}
+
 .titulo{
     background-color: var(--cor-fundo);
     text-align: left;
@@ -104,6 +109,19 @@ textarea{
     padding: 15px;
     font-size: 16px;
     width: 150px;
+}
+
+/* SlideShow */
+
+.slides{
+    background-color: var(--cor-fundo);
+}
+
+iframe{
+    background-color: var(--cor-fundo);
+    width: 800px;
+    padding-left: 100px;
+    padding-bottom: 100px;
 }
 
 /* Footer */
