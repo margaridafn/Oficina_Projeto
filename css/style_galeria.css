@@ -37,18 +37,44 @@ header a{
     margin-left: 30px;
 }
 
+/* Titulo Galeria */
+
+.t_gl{
+  background-color: var(--cor-fundo);
+  text-align: center;
+}
+
+.t_gl h1{
+  padding-top: 80px;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.t_gl p{
+  padding-bottom: 20px;
+  color: var(--cor-texto);
+}
+
 /* Slides Almofadas */
+
+.t_al{
+  text-align: center;
+  color: var(--cor-span);
+  font-size: 20px;
+  background-color: var(--cor-fundo);
+  padding-bottom: 20px;
+}
 
 #slideshow {
   overflow: hidden;
-  height: 510px;
+  height: 480px;
   width: 728px;
   margin: 0 auto;
 }
 
 .slide {
   float: left;
-  height: 510px;
+  height: 480px;
   width: 728px;
 }
 
