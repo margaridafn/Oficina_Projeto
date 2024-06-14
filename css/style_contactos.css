@@ -1,0 +1,84 @@
+:root{
+    --cor-cabeçalho: #ccd5aeff;
+    --cor-fundo-letras: #e9edc9ff;
+    --cor-fundo: #fefae0ff;
+    --papaya-whip: #faedcdff;
+    --cor-span: #d4a373ff;
+    --cor-texto-titulos: black;
+    --cor-texto: #828282;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+    font-family: Quicksand, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+
+header{
+    display: flex;
+    background-color: var(--cor-cabeçalho);
+    color: var(--cor-texto-titulos);
+    justify-content: space-between;
+    justify-items: center;
+    padding: 20px 50px;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--cor-texto-titulos);
+    margin-left: 30px;
+}
+
+.titulo{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-titulos);
+    text-align: center;
+    font-size: ;
+}
+
+.texto{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-titulos);
+}
+.texto p{
+    
+    color: var(--cor-texto);
+}
+
+.texto_contacto{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-titulos);
+}
+
+.texto_contacto p{
+    color: var(--cor-texto);
+}
+
+img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 25px;
+    font-size: 15px;
+    position: relative;
+    justify-content: space-between;
+  }
