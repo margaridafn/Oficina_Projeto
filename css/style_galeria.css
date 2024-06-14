@@ -39,9 +39,57 @@ header a{
 
 /* Slides Almofadas */
 
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
 
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
 
+.slide-wrapper {
+  width: calc(728px * 4);
+  animation: slide 10s ease infinite;
+}
 
+.slide:nth-child(1) {
+  background-image: url(../img/galeria_img/Almofadas_img/almofadas1.jpg);
+}
+
+.slide:nth-child(2) {
+  background-image: url(../img/galeria_img/Almofadas_img/almofadas2.jpg);
+}
+
+.slide:nth-child(3) {
+  background-image: url(../img/galeria_img/Almofadas_img/almofadas3.jpg);
+}
+
+.slide:nth-child(4) {
+  background-image: url(../img/galeria_img/Almofadas_img/almofadas4.jpg);
+}
+
+@keyframes slide {
+  20% {
+      margin-left: 0px;
+  }
+
+  40% {
+      margin-left: calc(-728px * 1);
+  }
+
+  60% {
+      margin-left: calc(-728px * 2);
+  }
+
+  80% {
+      margin-left: calc(-728px * 3);
+  }
+}
 
 /* Footer */
 
